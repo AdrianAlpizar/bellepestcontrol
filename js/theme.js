@@ -257,6 +257,7 @@ window.theme.fn = {
 		return $.when.apply($, _arr);
 	},
 
+	/*
 	showErrorMessage: function(title, content) {
 
 		$('.modalThemeErrorMessage').remove();
@@ -266,7 +267,7 @@ window.theme.fn = {
 		var modalThemeErrorMessage = bootstrap.Modal.getOrCreateInstance(modalThemeErrorMessage);
 		modalThemeErrorMessage.show();
 
-	}
+	}*/
 
 };
 
