@@ -83,7 +83,7 @@ try {
 	$mail->Send();
 	$arrResult = array ('response'=>'success');
 
-} catch (Exception $e) {
+} /*catch (Exception $e) {
 	$arrResult = array ('response'=>'error','errorMessage'=>$e->errorMessage());
 } catch (\Exception $e) {
 	$arrResult = array ('response'=>'error','errorMessage'=>$e->getMessage());
@@ -91,4 +91,4 @@ try {
 
 if ($debug == 0) {
 	echo json_encode($arrResult);
-}
+}*/
