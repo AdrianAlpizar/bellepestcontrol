@@ -2,6 +2,11 @@
 		background-color: #f8f9fb;
 }
 
+.phone-num, .phone-num:hover, .phone-num:focus, .phone-num:active {
+	text-decoration: none;
+	color: inherit;
+}
+
 .overlay-tertiary:before {
 		background: var(--tertiary);
 }
